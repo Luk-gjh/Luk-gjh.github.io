@@ -1,6 +1,5 @@
 *{font-family: 'Poppins', sans-serif;}
 .esercizio{
-  border: solid red 1px
 }
 
 .vai-giu{
@@ -24,12 +23,10 @@
 }
 
 .list{
-  border: solid red 1px;
   padding: 10px
 }
 
 .image{
-  border: solid red 1px;
   position:relative;
   padding:10px
 }
