@@ -1,62 +1,7 @@
 @charset "UTF-8";
-/*
 
 
-	// Table of contents //
 
-		01. CUSTOM FONTS
-		02.	BODY
-		03.	LINKS
-		04.	HTML TAGS
-		05.	SPACING
-		06.	FORM ELEMENTS
-		07.	CUSTOM CONTAINER
-		08.	SECTIONS
-		09.	CONTENT SECTION
-		10.	SECTION TITLE
-		11.	ODOMETER
-		12.	PAGINATION
-		13.	CUSTOM LINK
-		14.	CUSTOM BUTTON
-		15.	SANDWICH
-		16.	EQUALIZER
-		17.	PRE ELEMENTS
-		18.	PAGE LOADED
-		19.	CUSTOM CURSOR
-		20.	PRELOADER
-		21.	PAGE TRANSITION
-		22.	SITE NAVIGATION
-		23.	DISPLAY NAV
-		24.	NAVBAR
-		25.	BOTTOM BAR
-		26.	LEFT SIDE
-		27.	RIGHT SIDE
-		28.	SLIDER
-		29.	KINETIC SLIDER
-		30.	VIDEO BG
-		31.	PAGE HEADER
-		32.	ICON CONTENT LIST BLOCK
-		33.	SIDE IMAGE CONTENT
-		34.	RECENT NEWS
-		35.	ICON CONTENT BLOCK
-		36.	MASONRY GALLERY
-		37.	TEXT CONTENT BLOCK
-		38.	AWARDS
-		39.	TEAM
-		40.	SERVICES
-		41.	CLIENTS
-		42.	WORKS
-		43.	BLOG POST
-		44.	BLOG SIDEBAR
-		45.	CONTACT
-		46.	CONTACT FORM
-		47.	FOOTER
-		48.	RESPONSIVE MEDIUM
-		49.	RESPONSIVE TABLET
-		50.	RESPONSIVE MOBILE
-
-
-*/
 /* FONTS */
 @font-face {
   font-family: "Cera-GR";
@@ -87,7 +32,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Cera-GR", sans-serif;
+  font-family: "Bozon", sans-serif;
   font-size: 14px;
 }
 
@@ -2971,7 +2916,7 @@ canvas {
   padding-top: 150px;
   color: #fff;
   position: relative;
-  background: url("../images/footer-bg.png") top center no-repeat #4237ef;
+  background: url("../images/footer-bg.png") top center no-repeat #0E98BD;
   background-size: cover;
 }
 .footer .work-with-us {
