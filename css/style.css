@@ -1662,7 +1662,7 @@ canvas {
   flex-wrap: wrap;
   align-items: center;
   position: relative;
-  background: #4237ef;
+  background: black;
   overflow: hidden;
 }
 .page-header .video-bg {
@@ -1784,7 +1784,7 @@ canvas {
   position: absolute;
   right: 0;
   top: 0;
-  background: #4237ef;
+  background: #3FA9F5;
 }
 .left-side-content:after {
   content: "";
@@ -1793,7 +1793,7 @@ canvas {
   position: absolute;
   right: -20%;
   top: 0;
-  background: #4237ef;
+  background: #3FA9F5;
 }
 .left-side-content .inner {
   width: 100%;
@@ -2762,7 +2762,7 @@ canvas {
   position: absolute;
   left: 0;
   top: 0;
-  background: #4237ef;
+  background: black;
   mix-blend-mode: color;
 }
 .map .map-note {
@@ -2777,7 +2777,7 @@ canvas {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: #4237ef;
+  background: black;
 }
 .map .map-note h6 {
   margin-top: auto;

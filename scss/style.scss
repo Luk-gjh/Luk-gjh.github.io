@@ -42,7 +42,7 @@ theme.
 		30.	VIDEO BG
 		31.	PAGE HEADER
 		32.	ICON CONTENT LIST BLOCK
-		33.	SIDE IMAGE CONTENT 
+		33.	SIDE IMAGE CONTENT
 		34.	RECENT NEWS
 		35.	ICON CONTENT BLOCK
 		36.	MASONRY GALLERY
@@ -57,8 +57,8 @@ theme.
 		45.	CONTACT
 		46.	CONTACT FORM
 		47.	FOOTER
-		48.	RESPONSIVE MEDIUM  
-		49.	RESPONSIVE TABLET  
+		48.	RESPONSIVE MEDIUM
+		49.	RESPONSIVE TABLET
 		50.	RESPONSIVE MOBILE
 
 
@@ -148,7 +148,7 @@ input[type="button"], input[type="submit"], button[type="button"], button[type="
 /* CUSTOM CONTAINER */
 @media (min-width: 1170px) { .container { max-width: 1100px; } }
 @media (min-width: 1280px) { .container { max-width: 1260px; } }
-.container-fluid{padding: 0 100px;}
+.container-fluid{padding: 0 100px; box-sizing: border-box; align-items: center;}
 
 
 
@@ -223,18 +223,18 @@ article{display: block;}
 
 
 /* ANIMATIONS */
-@keyframes texteffect { 
+@keyframes texteffect {
 	0% { transform: translateY(100%); opacity: 0; }
 	100% {transform: translateY(0); opacity: 1;}
 }
 
 
-@-webkit-keyframes texteffect { 
+@-webkit-keyframes texteffect {
 	0% {  -webkit-transform: translateY(100%); opacity: 0; }
 	100% {-webkit-transform: translateY(0); opacity: 1;}
 }
 
-@-moz-keyframes texteffect { 
+@-moz-keyframes texteffect {
 	0% {  -moz-transform: translateY(100%); opacity: 0; }
 	100% {-moz-transform: translateY(0); opacity: 1;}
 }
@@ -269,24 +269,24 @@ article{display: block;}
                 transform: scale(.05,1)
     }
 
-    66.6% { 
-        -webkit-transform-origin: left center; 
-                transform-origin: left center; 
-        -webkit-transform: scale(1,1); 
+    66.6% {
+        -webkit-transform-origin: left center;
+                transform-origin: left center;
+        -webkit-transform: scale(1,1);
                 transform: scale(1,1)
     }
 
-    66.7% { 
-        -webkit-transform-origin: right center; 
-                transform-origin: right center; 
-        -webkit-transform: scale(1,1); 
+    66.7% {
+        -webkit-transform-origin: right center;
+                transform-origin: right center;
+        -webkit-transform: scale(1,1);
                 transform: scale(1,1)
     }
 
-    100% { 
-        -webkit-transform-origin: right center; 
-                transform-origin: right center; 
-        -webkit-transform: scale(0,1); 
+    100% {
+        -webkit-transform-origin: right center;
+                transform-origin: right center;
+        -webkit-transform: scale(0,1);
                 transform: scale(0,1)
     }
 }
@@ -300,24 +300,24 @@ article{display: block;}
                 transform: scale(.05,1)
     }
 
-    66.6% { 
-        -webkit-transform-origin: left center; 
-                transform-origin: left center; 
-        -webkit-transform: scale(1,1); 
+    66.6% {
+        -webkit-transform-origin: left center;
+                transform-origin: left center;
+        -webkit-transform: scale(1,1);
                 transform: scale(1,1)
     }
 
-    66.7% { 
-        -webkit-transform-origin: right center; 
-                transform-origin: right center; 
-        -webkit-transform: scale(1,1); 
+    66.7% {
+        -webkit-transform-origin: right center;
+                transform-origin: right center;
+        -webkit-transform: scale(1,1);
                 transform: scale(1,1)
     }
 
-    100% { 
-        -webkit-transform-origin: right center; 
-                transform-origin: right center; 
-        -webkit-transform: scale(0,1); 
+    100% {
+        -webkit-transform-origin: right center;
+                transform-origin: right center;
+        -webkit-transform: scale(0,1);
                 transform: scale(0,1)
     }
 }
@@ -326,7 +326,7 @@ article{display: block;}
 
 /* CUSTOM LINK */
 .custom-link{width: 100%; display: block; overflow: hidden;
-	a{color: #fff; display: inline-block; position: relative; @include transition; 
+	a{color: #fff; display: inline-block; position: relative; @include transition;
 				&:before{content: attr(data-text); position: absolute; left: 0; top:100%; color: #fff;}
 				&:hover{transform:translateY(-100%); text-decoration: none;}}}
 
@@ -348,10 +348,10 @@ span{ display: inline-block; color: #fff; font-size: 12px; font-weight: 800; }}
 .sandwich{width: 36px; height: 36px; display: inline-block; position: relative;
 	*{transition: all .5s cubic-bezier(.47, .02, .03, .86);}
 	span{width: 36px; height: 2px; background: #fff; position: absolute;}
-	.sand{ width: 100%; height: 100%; position: absolute; left: 0; top: 0;  
+	.sand{ width: 100%; height: 100%; position: absolute; left: 0; top: 0;
 		span:nth-child(1){ top: 14px; left: 0;}
 		span:nth-child(2){ top: 24px; left: 0;}}
-	.closed{ width: 100%; height: 100%; position: absolute; left: 0; top: 1px; z-index: 2; opacity: 1; overflow: hidden; transform: rotate(45deg); transform-origin: center; 
+	.closed{ width: 100%; height: 100%; position: absolute; left: 0; top: 1px; z-index: 2; opacity: 1; overflow: hidden; transform: rotate(45deg); transform-origin: center;
 		span:nth-child(1){ width: 36px; top: 17px; left: 0; transform: rotate(0deg) translateX(-130%); transition-delay: 0.30s;}
 		span:nth-child(2){ width: 36px; top: 17px; right: 0; transform: rotate(90deg) translateX(-130%); transition-delay: 0.45s;}}
 	&:hover .sand span:nth-child(1){ width: 26px;}
@@ -408,7 +408,7 @@ span{ display: inline-block; color: #fff; font-size: 12px; font-weight: 800; }}
 
 /* PRELOADER */
 .preloader{width: 100%; height: 100vh; display: flex; flex-wrap: wrap; flex-direction: column; align-items:  center; justify-content: center; position: fixed; left: 0; top: 0; z-index: 99; transition-delay: 2s; overflow: hidden;
-	span{width: 25%; height: 100%; position: absolute; right: 0%; top: 0; background: $color-dark; transition: all ease 0.7s; transition-delay: 0.7s; 
+	span{width: 25%; height: 100%; position: absolute; right: 0%; top: 0; background: $color-dark; transition: all ease 0.7s; transition-delay: 0.7s;
 		&:nth-child(2){right: 25%;}
 		&:nth-child(3){right: 50%;}
 		&:nth-child(4){right: 75%;}}
@@ -423,7 +423,7 @@ span{ display: inline-block; color: #fff; font-size: 12px; font-weight: 800; }}
 
 /* PAGE TRANSITION */
 .page-transition{width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 99; visibility: hidden;
-	span{width: 0; height: 100%; position: absolute; left: 0; top: 0; background: $color-dark; transition: all ease 0.5s; 
+	span{width: 0; height: 100%; position: absolute; left: 0; top: 0; background: $color-dark; transition: all ease 0.5s;
 		&:nth-child(2){left: 25%;}
 		&:nth-child(3){left: 50%;}
 		&:nth-child(4){left: 75%;}}
@@ -476,7 +476,7 @@ span{ display: inline-block; color: #fff; font-size: 12px; font-weight: 800; }}
 
 
 /* NAVBAR */
-.navbar{width: 100%; display: flex; flex-wrap: wrap; position: absolute; left: 0; top: 0; z-index: 5; padding: 30px 100px; font-weight: 600; 
+.navbar{width: 100%; display: flex; flex-wrap: wrap; position: absolute; left: 0; top: 0; z-index: 5; padding: 30px 100px; font-weight: 600;
 	.logo{ margin-left: 0;
 		a{display: inline-block;
 			img{ height: 15px;}}}
@@ -491,7 +491,7 @@ span{ display: inline-block; color: #fff; font-size: 12px; font-weight: 800; }}
 
 /* BOTTOM BAR */
 .bottom-bar{ width: 100%; display: flex; flex-wrap: wrap; position: absolute; left: 0; bottom: 0; z-index: 2; padding: 20px 100px; color: #fff; font-weight:600; align-items: center;
-	.sound{ flex: 1; margin-left: 0; 
+	.sound{ flex: 1; margin-left: 0;
 		b{font-weight: 600;}}
 	.scroll-down{flex: 1; text-align: right; margin-left: auto; overflow: hidden; position: relative;
 		a{color: #fff; display: inline-block;  @include transition;
@@ -548,7 +548,7 @@ span{ display: inline-block; color: #fff; font-size: 12px; font-weight: 800; }}
 		&:hover svg{transform: scale(1.1); background: rgba(255,255,255,0.05);}
 			&:hover span:before{width: 0;}}
 		h1 { display: inline-block; margin: 10px 0; font-weight: 800; color: transparent; font-size: 10vw; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #fff; text-transform: uppercase; position: relative;}}
-	.slider-controls{ height: 21px; display: inline-block; margin-left: auto; right: 0; position: relative; overflow: hidden; 
+	.slider-controls{ height: 21px; display: inline-block; margin-left: auto; right: 0; position: relative; overflow: hidden;
 		.main-nav.prev { position: static; display: inline-block; width: auto; height: auto; background: none; margin: 0; @include transition;
 		&:before{content: attr(data-text); position: absolute; left: 0; top:100%; color: #fff;}
 		&:hover{transform:translateY(-100%); text-decoration: none;}}
@@ -563,7 +563,7 @@ span{ display: inline-block; color: #fff; font-size: 12px; font-weight: 800; }}
 				&:hover{transform:translateY(-100%); text-decoration: none;}}}
 	.slider-fraction { display: inline-block; font-size: 50px; font-weight: 300; position: absolute; left: 100px; bottom: 100px;
 	span {  display: inline-block;}}
-	.swiper-pagination-bullets{ display: inline-block; margin: 0 auto; margin-top: 4px; position: static; 
+	.swiper-pagination-bullets{ display: inline-block; margin: 0 auto; margin-top: 4px; position: static;
 	.swiper-pagination-bullet{ width: 16px; height: 16px; background: #fff; margin: 0 10px; text-align: center; position: relative; transform: scale(0.4); @include transition;
 		&:hover{transform: scale(0.8);}
 		&.swiper-pagination-bullet-active{opacity: 1;}}}}
@@ -593,7 +593,7 @@ canvas { position: absolute; display : block; top:0; left : 0; }
 
 /* PAGE HEADER */
 .page-header{width: 100%; height: 100vh; display: flex; flex-wrap: wrap; align-items: center; position: relative; background: $color-main; overflow: hidden;
-	.video-bg{width: 100%; height: 100vh; display: flex; flex-wrap: wrap; position: relative; overflow: hidden; z-index: 1; opacity: 0.10; position: absolute; left: 0; top: 0; 
+	.video-bg{width: 100%; height: 100vh; display: flex; flex-wrap: wrap; position: relative; overflow: hidden; z-index: 1; opacity: 0.10; position: absolute; left: 0; top: 0;
 		video{ min-width: 100%; min-height: 100%; position: absolute; left: 50%; top: 50%; transform: translateX(-50%)  translateY(-50%),}}
 	.container{text-align: center; transform: skewY(-4deg); position: relative; z-index: 2; @include transition;
 	h1{font-weight: 800; color: transparent; font-size: 17vw; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #fff;}
@@ -671,8 +671,8 @@ canvas { position: absolute; display : block; top:0; left : 0; }
 			h4{font-weight: 600;  margin: 0; line-height: 1;}}
 				img{width: 100%; mix-blend-mode: lighten;}}}}
 
-	
-	
+
+
 
 /* TEXT CONTENT BLOCK */
 .col-lg-5 .text-content-block{padding-right: 10%;}
@@ -735,10 +735,10 @@ canvas { position: absolute; display : block; top:0; left : 0; }
 
 
 /* WORKS */
-.works{ width: 100%; display: inline-block; margin-top:30px; margin-bottom: 0; position: relative; background: $color-dark; color: #fff; 
+.works{ width: 100%; display: inline-block; margin-top:30px; margin-bottom: 0; position: relative; background: $color-dark; color: #fff;
 		&:hover img{opacity: 0.8;}
 		img{width: 100%; @include transition;}
-		figcaption{width: 100%; position: absolute; left: 0; bottom: 0; padding: 30px; 
+		figcaption{width: 100%; position: absolute; left: 0; bottom: 0; padding: 30px;
 			&:before{content: ""; width: 100%; height: 100%; position: absolute; left: 0; top: 0; mix-blend-mode: overlay;
 				background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,1) 100%);
     background-image: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,1) 100%);
@@ -872,7 +872,7 @@ canvas { position: absolute; display : block; top:0; left : 0; }
 /* CONTACT FORM */
 .contact-form{ width: 100%; display: block;position: relative; z-index: 1; padding-right: 10%;
 	.form-group{margin-bottom: 0;}
-	#contact{display: block; 
+	#contact{display: block;
 		.form-group{display: flex; flex-wrap: wrap; position: relative; margin-bottom: 35px;
 			&:last-child{margin-bottom: 0;}
 			.checkbox{display: flex; flex-wrap: wrap; width: 30%; height: 52px; border: 1px solid #ccc; margin-right: 5%; align-items: center; padding-left: 15px;
@@ -890,7 +890,7 @@ canvas { position: absolute; display : block; top:0; left : 0; }
 	textarea.error{border: 1px solid red;}
 		#success,  #error {display:none; float:left; width: 100%; margin-top: 30px; font-size: 600; font-size: 15px;}
 		#error {background: red; color: #fff; }
-		#success{background: green; color: #fff;} 
+		#success{background: green; color: #fff;}
 		.alert{border: none; border-radius: 0; padding: 40px 30px; }}
 
 
@@ -957,7 +957,7 @@ canvas { position: absolute; display : block; top:0; left : 0; }
 	.section-title{margin-bottom: 50px;}
 	input, textarea, button{-webkit-border-radius: 0; border-radius: 0; -webkit-box-shadow: none; box-shadow: none;}
 	.footer{padding-top: 100px;}
-	
+
 }
 
 
@@ -994,6 +994,5 @@ canvas { position: absolute; display : block; top:0; left : 0; }
 	.footer .work-with-us h2{font-size: 10vw;}
 	.footer .footer-bottom .footer-menu{margin-left: 0;}
 	.footer .footer-bottom span{order: 2; width: 100%; margin-top: 10px;}
-	
-}
 
+}
