@@ -1784,7 +1784,7 @@ canvas {
   position: absolute;
   right: 0;
   top: 0;
-  background: #3FA9F5;
+  background: black;
 }
 .left-side-content:after {
   content: "";
@@ -1793,7 +1793,7 @@ canvas {
   position: absolute;
   right: -20%;
   top: 0;
-  background: #3FA9F5;
+  background: black;
 }
 .left-side-content .inner {
   width: 100%;
